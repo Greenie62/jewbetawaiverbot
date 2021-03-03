@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative;
+}
+
+header{
+    height:15vh;
+    width:100%;
+    background:gray;
+    text-shadow:1px -1px 1px white;
+
+}
+
+.headerh1one{
+    left:35%;
+}
+
+.headerp{
+    left:55%;
+}
+
+.clickSpan{
+    margin-left:10px;
+    position:absolute;
+    transition:1s ease;
+    animation:click 2s infinite;
+    font-size:20px;
+}
+
+.waiverArea{
+    height:75vh;
+    width:100%;
+    overflow:auto;
+}
+
+
+footer{
+    background:gray;
+    text-align:center;
+}
+
+.parentPolicyDiv{
+    height:125px;
+    width:100%;
+
+}
+
+.checkbox{
+    width:20px;
+    height:20px;
+    border:1px solid black;
+    left:77%;
+    top:0%;
+}
+
+.signSpan{
+    left:70%;
+    top:15%;
+}
+
+@keyframes click{
+    0%{font-size:15px}
+    50%{font-size:17px}
+    100%{font-size:15px}
+}
