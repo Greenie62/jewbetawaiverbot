@@ -13,7 +13,7 @@ function generatePage(){
     for(let i=0;i<Math.random()*5 + 3 | 0;i++){
         html += `<div class='parentPolicyDiv'>
                    <div class='policy'>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, facilis odit obcaecati iure architecto excepturi cupiditate accusamus maxime, dignissimos corporis non tenetur? Suscipit quibusdam harum at mollitia quas accusamus, cupiditate nam aut repellat facere, ex magni beatae incidunt quasi iusto? </p>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illo exercitationem ex soluta voluptatibus odit atque molestias, assumenda dolores aliquid.</p>
                     </div>
                 <span class='signSpan'>Sign:</span><div class='checkbox'></div>
                 </div>`
